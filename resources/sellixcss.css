@@ -1,0 +1,125 @@
+html, body {
+    background-color: rgb(13, 13, 13);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.darkTheme .embed-buttons-wrapper > div:before,
+.lightTheme .embed-buttons-wrapper > div:before {
+    background: linear-gradient(0deg, rgb(251, 239, 255) 33%, rgba(0, 0, 0, 0) 100%);
+}
+
+div.embed-container {
+    background-color: var(--black0);
+}
+
+div.embed-screen {
+    --black9: #aa0093;
+    --black6: #000000;
+    --black4: #000000;
+    --black5: #aa00928f;
+    --black3: #A2AAB4;
+    --black2: #fa00ff;
+    --black1: #fa00ff;
+    --black0: #f0afff;
+    --white: #fbefff;
+    --black: #121417;
+    --purple6: #b83ebf;
+}
+
+.embed-variant-header.active {
+    border-width: 2px;
+}
+
+.embed-gateway-container .gateway-list-item {
+    border-width: 2px;
+}
+
+.embed-container,
+.embed-header,
+.embed-counter,
+.sellix-product-rewards,
+.embed-volume,
+.embed-coupon-input,
+.embed-coupon-applied,
+input.sellix-input,
+.gateway-list-item,
+.embed-variant-header,
+.embed-addons {
+    background-color: var(--black0) !important;
+}
+
+.sellix-input-with-currency-wrapper input {
+    background-color: var(--black0) !important;
+}
+
+button.sellix-button {
+    background-color: var(--purple6) !important;
+}
+
+.gateway-list-item-blockchain.bg-white {
+    background-color: var(--black0) !important;
+}
+
+input.sellix-input {
+    background-color: var(--white) !important;
+}
+
+input.sellix-input::placeholder {
+    color: var(--black0);
+}
+
+.embed-stock {
+    color: var(--purple6);
+}
+
+.embed-footer-item:hover {
+    background: #fa00ff2b !important;
+}
+
+.sellix-product-rewards-list-row-title {
+    color: #00000080;
+}
+
+.gateway-title,
+.gateway-list-item-title > div:first-child {
+    color: var(--black9);
+}
+
+.gateway-subtitle,
+.gateway-list-item-title > div:last-child {
+    color: var(--black5);
+}
+
+.embed-gateway-container .gateway-list-item {
+    border-color: var(--black5) !important;
+}
+
+.embed-gateway-container .gateway-list-item.active {
+    border-color: var(--black9) !important;
+}
+
+.sellix-button {
+    color: var(--white);
+}
+
+.gateway-list-item.active {
+    box-shadow: transparent 0 0 0 0, transparent 0 0 0 0, rgba(18, 20, 23, 0.06) 0 1px 2px 0;
+}
+
+.item-first > g rect,
+.item-second > g rect {
+    fill: #efadfe;
+}
+
+.item-first > mask + g rect,
+.item-second > mask + g rect {
+    fill: #fff;
+}
+
+.item-first > mask + g path,
+.item-second > mask + g path {
+    fill: #efadfe;
+}
